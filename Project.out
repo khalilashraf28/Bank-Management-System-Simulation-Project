@@ -1,0 +1,134 @@
+
+                                      ARENA Simulation Results
+                           khalil.ashraf@hotmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Project Khalil                                              Run execution date : 6/25/2025
+Analyst: khalil.ashraf@hotmail.com                                   Model revision date: 6/25/2025
+
+Replication ended at time      : 7417.9464 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Receiving Bill.VATimePerEntity              1.0000     (Insuf)    1.0000     1.0000         21    
+Deposit Service.VATimePerEntity             3.6077     (Insuf)    2.0375     4.9694         25    
+Deposit Service.TotalTimePerEntity          3.6077     (Insuf)    2.0375     4.9694         25    
+ATM Service.TotalTimePerEntity              1.8609     (Insuf)    1.2488     2.4583         20    
+ATM Service.WaitTimePerEntity               .00000     (Insuf)    .00000     .00000         20    
+Report Billing.TotalTimePerEntity           .50000     (Insuf)    .50000     .50000         21    
+Receiving Bill.TotalTimePerEntity           1.0000     (Insuf)    1.0000     1.0000         21    
+Report Aco.VATimePerEntity                  .50000     (Insuf)    .50000     .50000         34    
+Report Deposits.VATimePerEntity             .50000     (Insuf)    .50000     .50000         25    
+Account Opening.TotalTimePerEntity          5.0367     (Insuf)    3.1669     9.5334         34    
+Report Aco.TotalTimePerEntity               .50000     (Insuf)    .50000     .50000         34    
+Billing Service.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000         21    
+Report Deposits.TotalTimePerEntity          .50000     (Insuf)    .50000     .50000         25    
+Depositing Money.TotalTimePerEntity         1.0000     (Insuf)    1.0000     1.0000         25    
+Report Billing.VATimePerEntity              .50000     (Insuf)    .50000     .50000         21    
+Account Opening.WaitTimePerEntity           .08564     (Insuf)    .00000     2.9116         34    
+Billing Service.TotalTimePerEntity          3.9156     (Insuf)    2.4887     5.7133         21    
+Billing Service.VATimePerEntity             3.9156     (Insuf)    2.4887     5.7133         21    
+Account Opening.VATimePerEntity             4.9510     (Insuf)    3.1669     6.7843         34    
+Depositing Money.VATimePerEntity            1.0000     (Insuf)    1.0000     1.0000         25    
+ATM Service.VATimePerEntity                 1.8609     (Insuf)    1.2488     2.4583         20    
+Deposit Service.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000         25    
+Entity 1.VATime                             4.6397     (Insuf)    1.2488     7.2843        100    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        100    
+Entity 1.WaitTime                           .02912     (Insuf)    .00000     2.9116        100    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        100    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        100    
+Entity 1.TotalTime                          4.6688     (Insuf)    1.2488     10.033        100    
+Billing Service.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         21    
+Account Opening.Queue.WaitingTime           .08564     (Insuf)    .00000     2.9116         34    
+Deposit Service.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         25    
+ATM Service.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .06294     (Insuf)    .00000     2.0000     .00000    
+Deposit Clerk.NumberBusy                    .01216     (Insuf)    .00000     1.0000     .00000    
+Deposit Clerk.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Deposit Clerk.Utilization                   .01216     (Insuf)    .00000     1.0000     .00000    
+Billing Officer.NumberBusy                  .01108     (Insuf)    .00000     1.0000     .00000    
+Billing Officer.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Billing Officer.Utilization                 .01108     (Insuf)    .00000     1.0000     .00000    
+ATM Machine.NumberBusy                      .00502     (Insuf)    .00000     1.0000     .00000    
+ATM Machine.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATM Machine.Utilization                     .00502     (Insuf)    .00000     1.0000     .00000    
+Account Officer.NumberBusy                  .02269     (Insuf)    .00000     1.0000     .00000    
+Account Officer.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Account Officer.Utilization                 .02269     (Insuf)    .00000     1.0000     .00000    
+Billing Service.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Account Opening.Queue.NumberInQueue         3.9251E-04 (Insuf)    .00000     1.0000     .00000    
+Deposit Service.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+ATM Service.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Deposits                                         25  Infinite
+Aco Openings                                     34  Infinite
+Billings                                         21  Infinite
+ATM Transactions                                 20  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Report Billing Number Out                   21.000    
+Report Aco Number In                        34.000    
+ATM Service Accum VA Time                   37.218    
+Receiving Bill Number Out                   21.000    
+ATM Service Accum Wait Time                 .00000    
+Report Deposits Accum VA Time               12.500    
+Account Opening Accum Wait Time             2.9116    
+Deposit Service Number Out                  25.000    
+Report Billing Accum VA Time                10.500    
+ATM Service Number Out                      20.000    
+Billing Service Number Out                  21.000    
+Report Billing Number In                    21.000    
+Deposit Service Number In                   25.000    
+Report Aco Number Out                       34.000    
+Billing Service Accum VA Time               82.227    
+Account Opening Accum VA Time               168.33    
+Report Aco Accum VA Time                    17.000    
+Receiving Bill Number In                    21.000    
+Deposit Service Accum Wait Time             .00000    
+Billing Service Number In                   21.000    
+Receiving Bill Accum VA Time                21.000    
+Report Deposits Number Out                  25.000    
+Deposit Service Accum VA Time               90.194    
+Report Deposits Number In                   25.000    
+Depositing Money Accum VA Time              25.000    
+Depositing Money Number In                  25.000    
+Account Opening Number In                   34.000    
+Billing Service Accum Wait Time             .00000    
+ATM Service Number In                       20.000    
+Account Opening Number Out                  34.000    
+Depositing Money Number Out                 25.000    
+Entity 1.NumberIn                           100.00    
+Entity 1.NumberOut                          100.00    
+Deposit Clerk.NumberSeized                  25.000    
+Deposit Clerk.ScheduledUtilization          .01216    
+Billing Officer.NumberSeized                21.000    
+Billing Officer.ScheduledUtilization        .01108    
+ATM Machine.NumberSeized                    20.000    
+ATM Machine.ScheduledUtilization            .00502    
+Account Officer.NumberSeized                34.000    
+Account Officer.ScheduledUtilization        .02269    
+System.NumberOut                            100.00    
+
+
+Simulation run time: 0.35 minutes.
+Simulation run complete.
